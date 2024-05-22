@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Storage;
 use Illuminate\Http\UploadedFile;
 use Intervention\Image\ImageManager;
 use Webkul\Core\Eloquent\Repository;
-use Webkul\Store\Contracts\ThemeCustomization;
+use Webkul\Theme\Contracts\ThemeCustomization;
 
 class ThemeCustomizationRepository extends Repository
 {
